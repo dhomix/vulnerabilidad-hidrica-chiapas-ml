@@ -72,7 +72,7 @@ El impacto de cada característica en las predicciones del modelo se distribuye 
 ### 🗺️ Mapa Interactivo de Riesgo Hídrico
 Las probabilidades generadas por el modelo XGBoost se mapearon directamente sobre la geografía de Chiapas utilizando Plotly para facilitar la focalización operativa en territorio:
 
-![Mapa de Riesgo Chiapas](newplot%-%map.png)
+![Mapa de Riesgo Chiapas](img/mapa_riesgo.png)
 
 
 ### Insights Clave de Explicabilidad (SHAP Values)
