@@ -59,6 +59,11 @@ En este escenario de salud pública, **la métrica reina es el Recall (Sensibili
 * **AUC-ROC en Test:** `0.7508` (Superando el baseline lineal de la Regresión Logística de `0.6514`).
 * **F1-Score Equilibrado:** `0.68` para ambas clases.
 
+### 🎯 Evaluación de Desempeño (Matriz de Confusión y Curva ROC)
+El comportamiento del modelo optimizado en el conjunto de prueba muestra el balance entre la sensibilidad (Recall) y la capacidad de discriminación del algoritmo:
+
+![Evaluación del Modelo](img/matriz de confusión+roc.png)
+
 ### Insights Clave de Explicabilidad (SHAP Values)
 El uso de `TreeExplainer` de la librería SHAP reveló que el orden de importancia global sitúa a las variables de infraestructura y territorio como los principales motores de predicción:
 1. **Carencia de Saneamiento y Energía:** El porcentaje de viviendas sin drenaje (`pct_sin_drenaje`) y sin electricidad (`pct_sin_elec`) son los predictores con mayor impacto positivo para detonar la alerta de vulnerabilidad hídrica.
