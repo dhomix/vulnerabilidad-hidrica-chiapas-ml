@@ -64,6 +64,17 @@ El comportamiento del modelo optimizado en el conjunto de prueba muestra el bala
 
 ![Evaluación del Modelo](img/matriz%20de%20confusión+roc.png)
 
+### 🧬 Explicabilidad Global con SHAP Values
+El impacto de cada característica en las predicciones del modelo se distribuye de la siguiente manera, destacando el peso de la falta de drenaje y electricidad:
+
+![SHAP Beeswarm Plot](img/shap_beeswarm.png)
+
+### 🗺️ Storytelling Espacial: Mapa Interactivo de Riesgo Hídrico
+Las probabilidades generadas por el modelo XGBoost se mapearon directamente sobre la geografía de Chiapas utilizando Plotly para facilitar la focalización operativa en territorio:
+
+![Mapa de Riesgo Chiapas](newplot%20-%20map.png)
+
+
 ### Insights Clave de Explicabilidad (SHAP Values)
 El uso de `TreeExplainer` de la librería SHAP reveló que el orden de importancia global sitúa a las variables de infraestructura y territorio como los principales motores de predicción:
 1. **Carencia de Saneamiento y Energía:** El porcentaje de viviendas sin drenaje (`pct_sin_drenaje`) y sin electricidad (`pct_sin_elec`) son los predictores con mayor impacto positivo para detonar la alerta de vulnerabilidad hídrica.
