@@ -69,10 +69,10 @@ El impacto de cada característica en las predicciones del modelo se distribuye 
 
 ![SHAP Beeswarm Plot](img/shap_beeswarm.png)
 
-### 🗺️ Storytelling Espacial: Mapa Interactivo de Riesgo Hídrico
+### 🗺️ Mapa Interactivo de Riesgo Hídrico
 Las probabilidades generadas por el modelo XGBoost se mapearon directamente sobre la geografía de Chiapas utilizando Plotly para facilitar la focalización operativa en territorio:
 
-![Mapa de Riesgo Chiapas](newplot%20-%20map.png)
+![Mapa de Riesgo Chiapas](newplot%-%map.png)
 
 
 ### Insights Clave de Explicabilidad (SHAP Values)
