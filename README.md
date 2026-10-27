@@ -26,7 +26,7 @@ En México, el estado de Chiapas alberga más de 21,000 localidades según el Ce
 ### 📊 Correlación Estructural de las Variables (EDA)
 A través del Análisis Exploratorio de Datos, se identificó la relación lineal de los predictores socioeconómicos y de infraestructura frente a la cobertura hídrica:
 
-![Matriz de Correlación](img/matriz_correlacion.png)
+![Matriz de Correlación](img/correlación.png)
 
 
 ---
