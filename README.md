@@ -67,7 +67,7 @@ El comportamiento del modelo optimizado en el conjunto de prueba muestra el bala
 ### 🧬 Explicabilidad Global con SHAP Values
 El impacto de cada característica en las predicciones del modelo se distribuye de la siguiente manera, destacando el peso de la falta de drenaje y electricidad:
 
-![SHAP Beeswarm Plot](img/shap_beeswarm.png)
+![SHAP Beeswarm Plot](img/shap.png)
 
 ### 🗺️ Mapa Interactivo de Riesgo Hídrico
 Las probabilidades generadas por el modelo XGBoost se mapearon directamente sobre la geografía de Chiapas utilizando Plotly para facilitar la focalización operativa en territorio:
