@@ -23,6 +23,12 @@ En México, el estado de Chiapas alberga más de 21,000 localidades según el Ce
 4. **Validación Cruzada Espacial (GroupKFold):** División estratificada Train/Test (80/20). Para evitar la fuga de información (*data leakage*) provocada por la autocorrelación espacial (localidades vecinas muy parecidas), la validación cruzada se agrupó estrictamente por **Municipio** (`cv=5`), asegurando la capacidad de generalización del modelo en territorios no vistos.
 5. **Optimización con XGBoost:** Implementación de un `GridSearchCV` sobre un pipeline de Machine Learning. El ColumnTransformer estandarizó los predictores continuos y aplicó One-Hot Encoding a las variables categóricas.
 
+### 📊 Correlación Estructural de las Variables (EDA)
+A través del Análisis Exploratorio de Datos, se identificó la relación lineal de los predictores socioeconómicos y de infraestructura frente a la cobertura hídrica:
+
+![Matriz de Correlación](img/matriz_correlacion.png)
+
+
 ---
 
 ## 3. Marco Teórico y Justificación de Métricas
