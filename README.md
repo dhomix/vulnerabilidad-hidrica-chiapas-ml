@@ -62,7 +62,7 @@ En este escenario de salud pública, **la métrica reina es el Recall (Sensibili
 ### 🎯 Evaluación de Desempeño (Matriz de Confusión y Curva ROC)
 El comportamiento del modelo optimizado en el conjunto de prueba muestra el balance entre la sensibilidad (Recall) y la capacidad de discriminación del algoritmo:
 
-![Evaluación del Modelo](img/matriz de confusión+roc.png)
+![Evaluación del Modelo](img/matriz%20de%20confusión+roc.png)
 
 ### Insights Clave de Explicabilidad (SHAP Values)
 El uso de `TreeExplainer` de la librería SHAP reveló que el orden de importancia global sitúa a las variables de infraestructura y territorio como los principales motores de predicción:
